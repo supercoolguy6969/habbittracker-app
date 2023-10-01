@@ -9,7 +9,21 @@ import SwiftUI
 
 struct cueView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            VStack {
+                VStack{
+                    Text("1. Make the thing you want to do obvious")
+                    
+                }.padding()
+                
+                VStack{
+                    Text("For example, if you wish to study put your texbooks close on the desk to remind you")
+                }.padding()
+                
+                
+            }
+            
+        }
     }
 }
 

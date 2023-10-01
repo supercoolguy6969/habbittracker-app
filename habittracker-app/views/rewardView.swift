@@ -9,7 +9,21 @@ import SwiftUI
 
 struct rewardView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            VStack {
+                VStack{
+                    Text("4. Make it satisfying")
+                    
+                }.padding()
+                
+                VStack{
+                    Text("Give yourself a reward for doing a task, weather it's a treat or anything")
+                }.padding()
+                
+                
+            }
+            
+        }
     }
 }
 

@@ -9,7 +9,21 @@ import SwiftUI
 
 struct responseView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            VStack {
+                VStack{
+                    Text("3. Make it easy")
+                    
+                }.padding()
+                
+                VStack{
+                    Text("Don't be too hard on yourself, make the habit easy at first")
+                }.padding()
+                
+                
+            }
+            
+        }
     }
 }
 
