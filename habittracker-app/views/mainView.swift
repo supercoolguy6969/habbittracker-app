@@ -10,11 +10,8 @@ import SwiftUI
 struct mainView: View {
     var body: some View {
         ZStack {
-            VStack{
-              
-                Butto
-            }
             VStack {
+                buttonViewModel()
                 Spacer(minLength: 200)
                 VStack{
                     Text("Here is your list of creating good habits")
