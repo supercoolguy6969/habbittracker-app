@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F023AC52ACB7A3100B0874D /* habitMainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F023AC42ACB7A3100B0874D /* habitMainViewModel.swift */; };
+		8F023AC72ACB7DE300B0874D /* buttonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F023AC62ACB7DE300B0874D /* buttonViewModel.swift */; };
 		8FE601D82AC9D309002A7255 /* habittracker_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE601D72AC9D309002A7255 /* habittracker_appApp.swift */; };
 		8FE601DA2AC9D309002A7255 /* mainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE601D92AC9D309002A7255 /* mainView.swift */; };
 		8FE601DC2AC9D30A002A7255 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FE601DB2AC9D30A002A7255 /* Assets.xcassets */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8F023AC42ACB7A3100B0874D /* habitMainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = habitMainViewModel.swift; sourceTree = "<group>"; };
+		8F023AC62ACB7DE300B0874D /* buttonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttonViewModel.swift; sourceTree = "<group>"; };
 		8FE601D42AC9D309002A7255 /* habittracker-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "habittracker-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FE601D72AC9D309002A7255 /* habittracker_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = habittracker_appApp.swift; sourceTree = "<group>"; };
 		8FE601D92AC9D309002A7255 /* mainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainView.swift; sourceTree = "<group>"; };
@@ -101,6 +105,8 @@
 		8FE601E82AC9D6C4002A7255 /* viewmodel */ = {
 			isa = PBXGroup;
 			children = (
+				8F023AC42ACB7A3100B0874D /* habitMainViewModel.swift */,
+				8F023AC62ACB7DE300B0874D /* buttonViewModel.swift */,
 			);
 			path = viewmodel;
 			sourceTree = "<group>";
@@ -183,11 +189,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F023AC72ACB7DE300B0874D /* buttonViewModel.swift in Sources */,
 				8FE601DA2AC9D309002A7255 /* mainView.swift in Sources */,
 				8FE601EF2AC9D7DF002A7255 /* responseView.swift in Sources */,
 				8FE601ED2AC9D7DA002A7255 /* cravingView.swift in Sources */,
 				8FE601D82AC9D309002A7255 /* habittracker_appApp.swift in Sources */,
 				8FE601EB2AC9D7D4002A7255 /* cueView.swift in Sources */,
+				8F023AC52ACB7A3100B0874D /* habitMainViewModel.swift in Sources */,
 				8FE601F12AC9D7E7002A7255 /* rewardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
