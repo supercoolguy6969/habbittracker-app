@@ -11,18 +11,21 @@ struct buttonViewModel: View {
     var body: some View {
         NavigationView{
             VStack{
-                NavigationLink(destination: cueView()) {
-                    
-                    Button(action: {
-                        print("go to cueView")
-                    }){
-                        Text("yes")
+                Button(action: {
+                    NavigationLink(destination: cueView()){
+                        Text("ya")
                     }
-                        
-                    
+                }){
+                    Text("yes")
                 }
                 
-        }.navigationBarBackButtonHidden(/*@START_MENU_TOKEN@*/false/*@END_MENU_TOKEN@*/)
+                    
+                    
+                        
+                    
+                
+                
+        }.navigationBarBackButtonHidden(false)
         }
     }
 }

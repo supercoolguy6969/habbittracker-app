@@ -64,6 +64,10 @@
 		8FE601D62AC9D309002A7255 /* habittracker-app */ = {
 			isa = PBXGroup;
 			children = (
+				8FE601D72AC9D309002A7255 /* habittracker_appApp.swift */,
+				8FE601EA2AC9D7D4002A7255 /* cueView.swift */,
+				8FE601D92AC9D309002A7255 /* mainView.swift */,
+				8F023AC62ACB7DE300B0874D /* buttonViewModel.swift */,
 				8FE601DD2AC9D30A002A7255 /* habittracker_app.entitlements */,
 				8FE601E92AC9D6D1002A7255 /* resources */,
 				8FE601E82AC9D6C4002A7255 /* viewmodel */,
@@ -85,9 +89,6 @@
 		8FE601E62AC9D6A8002A7255 /* views */ = {
 			isa = PBXGroup;
 			children = (
-				8FE601D72AC9D309002A7255 /* habittracker_appApp.swift */,
-				8FE601D92AC9D309002A7255 /* mainView.swift */,
-				8FE601EA2AC9D7D4002A7255 /* cueView.swift */,
 				8FE601EC2AC9D7DA002A7255 /* cravingView.swift */,
 				8FE601EE2AC9D7DF002A7255 /* responseView.swift */,
 				8FE601F02AC9D7E7002A7255 /* rewardView.swift */,
@@ -106,7 +107,6 @@
 			isa = PBXGroup;
 			children = (
 				8F023AC42ACB7A3100B0874D /* habitMainViewModel.swift */,
-				8F023AC62ACB7DE300B0874D /* buttonViewModel.swift */,
 			);
 			path = viewmodel;
 			sourceTree = "<group>";
